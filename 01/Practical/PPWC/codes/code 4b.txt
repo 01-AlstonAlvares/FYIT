@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{ printf("01-AlstonAlvares.\n");
+  int i, j;
+/* for used as row wise */
+for(i=5; i>=1; i--)
+{
+/* for used as column wise */
+for(j=1; j<=i; j++)
+{
+printf("*");
+}
+printf("\n");
+}
+return 0;
+}

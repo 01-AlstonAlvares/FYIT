@@ -1,0 +1,75 @@
+// C Program to Store Information
+// of Students Using Structure
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Create the student structure
+struct Student {
+	char* name;
+	int roll_number;
+};
+
+// Driver code
+int main()
+{  printf("01-AlstonAlvares\n");
+	int i = 0, n = 10;
+
+	// Create the student's structure variable
+	// with n Student's records
+	struct Student student[n];
+
+	// Get the students data
+	student[0].roll_number = 1;
+	student[0].name = "Geeks16";
+	
+
+	student[1].roll_number = 2;
+	student[1].name = "Geeks54";
+	
+
+	student[2].roll_number = 3;
+	student[2].name = "Geeks22";
+
+
+	student[3].roll_number = 4;
+	student[3].name = "Geeks41";
+
+
+	student[4].roll_number = 5;
+	student[4].name = "Geeks39";
+
+	student[5].roll_number = 6;
+	student[5].name = "Geeks31";
+
+	
+    
+    student[6].roll_number = 7;
+	student[6].name = "Geeks32";
+
+	student[7].roll_number = 8;
+	student[7].name = "Geeks36";
+
+	
+	student[8].roll_number = 9;
+	student[8].name = "Geeks35";
+
+	
+	student[9].roll_number = 10;
+	student[9].name = "Geeks34";
+
+	
+
+	// Print the Students information
+	printf("Student Records:\n\n");
+	for (i = 0; i < n; i++) {
+		printf("\tName = %s\n", student[i].name);
+		printf("\tRoll Number = %d\n", student[i].roll_number);
+	}
+
+	return 0;
+}
+
+
+

@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{ printf("01-AlstonAlvares.\n");
+  int num, a;
+  printf("Please enter a number :\n");
+  scanf("%d",&num);
+  a = abs(num);
+  printf("Calculated absolute value is : %d\n", a);
+  a = sqrt(num);
+  printf("Calculated Squareroot value is : %d\n",a);
+  return 0;
+}

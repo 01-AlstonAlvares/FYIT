@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+void isPal(char s[])
+{ 
+int l = 0;
+int h = strlen(s)-1;
+while(h>l)
+{
+if(s[l++]!=s[h--])
+{ 
+printf("%s:not a palindrome\n",s);
+return;
+}
+}
+printf("%s :palindrome\n",s);
+}
+int main()
+{ printf("01-AlstonAlvares\n");
+    isPal("hello");
+    isPal("madam");
+    return 0;
+}
