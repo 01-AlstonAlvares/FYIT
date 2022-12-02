@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+        <!--Three ways of applying CSS: Inline,Internal, External-->
+        <style>
+                /*Element selector*/
+                p {
+                    color: red;
+                }
+                /* ID Selector*/
+                #greenElement {
+                    color: green;
+                }
+                /*Class Selector*/
+                .yellowElement {
+                    color: yellow;
+                }
+                .bgBlue {
+                    background-color: blue;
+                }
+                span, footer {
+                    background: pink;
+                }
+        </style>
+</head>
+<body>
+    <h3>This is simple paragraph to demonstrate</h3>
+    <p id="greenElement">This is simple paragraph to demonstrate<p>
+    <p id="thirdpara" class="yellowElement bgBlue">This is simple paragraph to demonstrate</p>
+    <div>
+        <p>This us yet another simple paragraph</p>
+        <span>This is span tag</span>
+        <footer>This is footer</footer>
+    </div>
+</body>
+</html>
