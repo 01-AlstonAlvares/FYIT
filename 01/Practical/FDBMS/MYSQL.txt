@@ -1,7 +1,0 @@
-https://www.w3schools.com/sql/default.asp
-
-https://www.youtube.com/c/SimplilearnOfficial
-
-https://dev.mysql.com/downloads/workbench/
-
-https://www.microsoft.com/en-in/sql-server/sql-server-downloads
